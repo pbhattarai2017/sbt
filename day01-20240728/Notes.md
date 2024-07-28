@@ -14,13 +14,13 @@ We will be following `Network Programming` from this blog site.
 https://jenkov.com/tutorials/java-networking/index.html
         
             
-                            HTML (html, css, js), JSON, Binary data,
-                            Spring Framework
-                            Java Servlet                (skip)
-                            HTTP
-                            Java Socket Programming
-                            TCP/IP
-                            UDP
+                         |  HTML (html, css, js), JSON, Binary data,
+                         |  Spring Framework
+                         |  Java Servlet                (skip)
+                         |  HTTP
+                         |  Java Socket Programming
+                         |  TCP/IP
+                         v  UDP
         
             
             
