@@ -1,7 +1,5 @@
 ### Spring Boot is a MVC framework
 
-
-
       Model
         |
     Controller
@@ -52,11 +50,12 @@ public class FirstController {
 		return res;
 
 	}
-}```
+}
+```
 
--    @RestController is used to annotate a Controller class
+- @RestController is used to annotate a Controller class
     
--    @GetMapping is used to map a specific url pattern to a specific controller method 
+- @GetMapping is used to map a specific url pattern to a specific controller method 
     
     
     
