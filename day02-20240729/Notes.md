@@ -31,8 +31,8 @@
     
     
 ## HTTP response message format
-    HTTP/1.1 <StatusCode> <StatusMessage>**CRLF**
-    HttpHeader1: value**CRLF**
-    HttpHeader2: value**CRLF**
-    **CRLF**
-    Message body
+HTTP/1.1 <StatusCode> <StatusMessage>**CRLF**
+HttpHeader1: value**CRLF**
+HttpHeader2: value**CRLF**
+**CRLF**
+Message body
