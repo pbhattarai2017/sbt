@@ -1,9 +1,9 @@
-### Serving View (html page) from Controller
+## Serving View (html page) from Controller
 
-Using '`Add to Starter` option;
-- add thymeleaf dependency to build.gradle
+Using `Add to Starter` option;
+- add `thymeleaf` dependency to `build.gradle`
 
-## Thymeleaf - html templating engine
+### Thymeleaf - html templating engine
 
 ```
 @Controller     /* this type of controller serves templates */
