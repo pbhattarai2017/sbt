@@ -11,8 +11,7 @@ public HomeController {
  
     @GetMappping("/home")
     public String index() {
-        return "index";    /* serves index.html from
-                                /src/main/resources/templates
+        return "index";    /* serves index.html from `/src/main/resources/templates/`
     }
  
 }
