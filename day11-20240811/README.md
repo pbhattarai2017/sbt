@@ -21,14 +21,19 @@
 ### Controller: 
 
 ```
-/todo/add/Go to market     @GetMapping("/todo/add/{title}") 
-                            String addTodo(@PathVariable("title") String title,
-                                            Model model)
+/todo/add/Go to market     
+
+@GetMapping("/todo/add/{title}")
+String addTodo( @PathVariable("title") String title,
+                Model model) { }
 
                                 
-/todo/add?title=Nepathya&desc=ITCollege        @GetMapping("/todo/add")
-                            @GetMapping(@RequestParam("title") String title,
-                                        @RequestParam("desc") String description
+/todo/add?title=Nepathya&desc=ITCollege        
+
+@GetMapping("/todo/add")
+String addTodo( @RequestParam("title") String title, 
+                @RequestParam("desc") String description, 
+                Model model) {  }
 
 ```
 `?` in url begins query parameter sequence (key=value pairs delimited by `&`)
