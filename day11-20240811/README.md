@@ -1,8 +1,8 @@
 ### Using FORM UI to make GET requests
 
--  Allows us to make GET requests (URL requests) without manually typing
+-  Allows us to make GET request (URL request) without manually typing
     URL routes
--  Form UI can be used to send many data fields in the same requests
+-  Form UI can be used to send many data fields in the same request
 
 
 ```
@@ -30,8 +30,8 @@
                             @GetMapping(@RequestParam("title") String title,
                                         @RequestParam("desc") String description
 
-? in url begins query parameter sequence (key=value pairs delimited by '&')
 ```
+`?` in url begins query parameter sequence (key=value pairs delimited by `&`)
 
 ### Form: 
 Title: [  Nepathya              ] [SUBMIT]
