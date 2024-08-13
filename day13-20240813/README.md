@@ -45,7 +45,7 @@ How should we generate id?
   - No inherent meaning 
   - Use `java.util.Random` API for now
 
-*Note*: Please refer to [`UserIdGenerator.java`](https://github.com/pbhattarai2017/sbt/blob/master/day13-20240813/UserIdGenerator.java) for hints regarding this Task
+*Note*: Please refer to [`UserIdGenerator.java`](./UserIdGenerator.java) for hints regarding this Task
     
 ### Task 2
 Having successfully generated a unique ID (userid) by the server,
