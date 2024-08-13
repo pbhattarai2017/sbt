@@ -42,7 +42,7 @@ How should we generate id?
 
   - Should contain alphanumeric sequence in randomized way, for e.g. `OorscXSTK3FxX2lHC0CR`
   - Should be sufficiently long
-  - No inherent meaning 
+  - Should have no inherent meaning 
   - Use `java.util.Random` API for now
 
 *Note*: Please refer to [`UserIdGenerator.java`](./UserIdGenerator.java) for hints regarding this Task
