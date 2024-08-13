@@ -25,7 +25,7 @@ Here, space '&nbsp;' is used as **delimiter** to separate Firstname & Lastname
     - Solution: The server should generate unique & unguessable identifier for each user.
 
   - User identifier could be leaked outside the client application.
-    - Solution: Secure storage of identifier by the client
+    - Solution: ?
   
 
 ### Task 1:
@@ -45,7 +45,7 @@ How should we generate id?
   - No inherent meaning 
   - Use `java.util.Random` API for now
 
-*Note*: Please refer to `UserIdGenerator.java` for hints regarding this Task
+*Note*: Please refer to [`UserIdGenerator.java`](https://github.com/pbhattarai2017/sbt/blob/master/day13-20240813/UserIdGenerator.java) for hints regarding this Task
     
 ### Task 2
 Having successfully generated a unique ID (userid) by the server,
