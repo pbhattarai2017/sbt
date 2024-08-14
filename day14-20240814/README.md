@@ -41,7 +41,7 @@
 ```
     
     
-HTTP example request
+HTTP request
 --------------------
 ```
 GET /todo HTTP/1.1
@@ -61,7 +61,7 @@ sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"
 sec-ch-ua-mobile: ?0
 ```
 
-HTTP example response
+HTTP response
 ---------------------
 ```
 HTTP/1.1 200
