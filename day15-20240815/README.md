@@ -57,4 +57,4 @@ public String showTodos(Model model, HttpServletRequest req, HttpServletResponse
 In the above code, we set the value of <span style="color: red">userid</span> from cookie provided the HTTP request. And that <span style="color: red">userid</span> can be used for user specific tasks in the controller. For example, it is being used in the above code for filtering user (identified by <span style="color: red">userid</span>) specific `Todo`s from the `todoList` array. The list of filtered `Todo`s, i.e. `filteredList` is finally sent to template for generating the view.
 
 #### Note:
-Please refer [Todo.java]("./Todo.java") & [TodoController.java]("./TodoController.java") for clarity.
+Please refer [Todo.java](./Todo.java) & [TodoController.java](./TodoController.java) for clarity.
